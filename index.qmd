@@ -1,0 +1,45 @@
+---
+title: "Isaiah Kirkpatrick"
+subtitle: "Business Administration | Marketing Analytics | Operations Management"
+---
+
+![](images/profile-photo.png){fig-align="center" width="260"}
+
+## Professional Profile
+
+I am a senior Business Administration student at Cal Poly Pomona, with a marketing emphasis.  Professionally, I have been a Department Manager at McDonald's for the past year.  My role is essentially leading a department at the McDonald's location I'm assigned to that is responsible for a specific set of controlable costs and operations.  Through these paralell experiences, I have had the opportunity to understand business from both an operational and academic perspective.  My goal is to pursue operations management.
+
+## Career Objective
+
+My career aim, following graduation, is to pursue a role in operations management at a unit level of scale.  Having worked across multiple departments within a McDonald's unit, I have had the opportunity to manage multiple aspects of a unit level P&L.  Additionally, my academic experience has provided me with valuable structures and knowledge that I can use to lead operations across departments and teams.
+
+## Education
+
+**California State Polytechnic University, Pomona**  
+Bachelor of Business Administration  
+Emphasis: Marketing  
+Expected Completion: July, 2026
+
+## Professional Experience
+
+**McDonald's — Department Manager**  
+Ontario, California
+
+- Led People Department, responsible for hiring, training, scheduling, and labor cost control for a McDonald's location earning $6 million in yearly revenue.  Saved $21,000 in labor cost and reduced turnover by 48% during my year of leadership in the department.
+- Led Quality Department, responsible for equipment, food safety, inventory, ordering, and food cost control for this McDonald's location.  During my time in the department I consistently met food cost targets and led the department though 90%+ scores on health department, EcoSure, and corporate visits.
+- Currently leading the service department, responsible for customer satisfaction, compliant resolution, promotional marketing, and service times for a store ranked in the top 5 for service in my organization.
+
+## Core Skills
+
+- Marketing Analytics
+- Market Research
+- Google Analytics 4
+- Data Visualization
+- Business Strategy
+- Operations Management
+- Customer Experience
+- Team Leadership
+- Communication
+- Problem Solving
+- Labor Cost Control
+- Inventory & Food Cost Control

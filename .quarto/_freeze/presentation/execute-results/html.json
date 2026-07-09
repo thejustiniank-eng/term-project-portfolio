@@ -1,0 +1,21 @@
+{
+  "hash": "b32ad64a7afe57c4afbcf1f1474bc2cd",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Used Car Pricing Research\"\nsubtitle: \"Marketing Research Presentation\"\nauthor: \"Isaiah Kirkpatrick\"\nformat:\n  revealjs:\n    theme: simple\n    transition: fade\n    slide-number: true\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n\n::: {.cell}\n\n:::\n\n\n## Research Purpose\n\n- Analyze factors connected to used car resale prices\n- Focus on mileage, age, brand, model, and reputation\n- Use data visualization to communicate pricing patterns\n\n## Research Question\n\n**How do mileage, vehicle age, brand, model, and brand reputation influence used car pricing?**\n\n## Data and Method\n\n- Data type: sample used car listing data\n- Main variables: price, mileage, year, brand, model, reputation score\n- Analysis method: visual comparison and trend analysis\n- Purpose: identify visible pricing patterns\n\n## Key Metrics\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n\n|Average Price |Average Mileage | Average Age|Highest Price |Lowest Price |\n|:-------------|:---------------|-----------:|:-------------|:------------|\n|$22,161.67    |52,800          |         5.4|$29,995       |$15,495      |\n\n\n:::\n:::\n\n\n## Average Price by Brand\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](presentation_files/figure-revealjs/unnamed-chunk-3-1.png){width=960}\n:::\n:::\n\n\n## Mileage and Price\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](presentation_files/figure-revealjs/unnamed-chunk-4-1.png){width=960}\n:::\n:::\n\n\n## Vehicle Age and Price\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](presentation_files/figure-revealjs/unnamed-chunk-5-1.png){width=960}\n:::\n:::\n\n\n## Business Takeaway\n\nFill in 3–5 bullets:\n\n- The strongest pricing pattern appears to be __________.\n- Buyers could use this information to __________.\n- Sellers or dealerships could use this information to __________.\n- This connects to marketing analytics because __________.\n\n## Skills Demonstrated\n\n- Marketing research\n- Data visualization\n- Business analytics\n- Consumer behavior analysis\n- Quarto Reveal.js presentation development\n- Data-based communication\n\n## Final Reflection\n\nFill in 3–5 sentences:\n\nThis project helped me understand __________. The most useful part of the analysis was __________ because __________. In a business setting, this type of analysis could help __________.",
+    "supporting": [
+      "presentation_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

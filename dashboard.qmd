@@ -1,0 +1,176 @@
+---
+title: "Dashboard"
+subtitle: "Used car pricing data visualization and business interpretation"
+format:
+  html:
+    code-fold: true
+    code-tools: false
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+library(tidyverse)
+library(scales)
+
+used_cars <- tibble::tribble(
+  ~brand, ~model, ~year, ~price, ~mileage, ~brand_reputation,
+  "Toyota", "Camry", 2021, 22995, 42000, 5,
+  "Toyota", "Corolla", 2020, 18995, 55000, 5,
+  "Toyota", "RAV4", 2022, 28995, 36000, 5,
+  "Honda", "Civic", 2021, 21995, 39000, 5,
+  "Honda", "Accord", 2020, 23995, 47000, 5,
+  "Honda", "CR-V", 2022, 29995, 34000, 5,
+  "Ford", "Fusion", 2019, 15995, 71000, 3,
+  "Ford", "Escape", 2021, 21495, 52000, 3,
+  "Ford", "Explorer", 2020, 26995, 61000, 3,
+  "Chevrolet", "Malibu", 2019, 15495, 76000, 3,
+  "Chevrolet", "Equinox", 2021, 20495, 58000, 3,
+  "Chevrolet", "Traverse", 2020, 25995, 63000, 3,
+  "Nissan", "Altima", 2020, 17995, 69000, 4,
+  "Nissan", "Sentra", 2021, 16995, 48000, 4,
+  "Nissan", "Rogue", 2022, 23995, 41000, 4
+) |>
+  mutate(
+    vehicle_age = 2026 - year,
+    price_thousands = price / 1000
+  )
+```
+
+## Dashboard Overview
+
+This dashboard visualizes selected used car pricing info by comparing price, mileage, age, and brand. The dashboard supports the research question of which factors appear connected to used vehicle value.
+
+---
+
+## Key Metrics Summary
+
+```{r}
+summary_table <- used_cars |>
+  summarise(
+    `Average Price` = dollar(mean(price)),
+    `Average Mileage` = comma(round(mean(mileage), 0)),
+    `Average Vehicle Age` = round(mean(vehicle_age), 1),
+    `Highest Price` = dollar(max(price)),
+    `Lowest Price` = dollar(min(price))
+  )
+
+knitr::kable(summary_table)
+```
+
+---
+
+## Average Price by Brand
+
+```{r}
+used_cars |>
+  group_by(brand) |>
+  summarise(avg_price = mean(price), .groups = "drop") |>
+  ggplot(aes(x = reorder(brand, avg_price), y = avg_price)) +
+  geom_col() +
+  coord_flip() +
+  scale_y_continuous(labels = dollar_format()) +
+  labs(
+    title = "Average Used Car Price by Brand",
+    x = "Brand",
+    y = "Average Price",
+    caption = "Source: Sample used car listing dataset"
+  ) +
+  theme_minimal()
+```
+
+---
+
+## Mileage Compared to Price
+
+```{r}
+used_cars |>
+  ggplot(aes(x = mileage, y = price)) +
+  geom_point(size = 3) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_x_continuous(labels = comma_format()) +
+  scale_y_continuous(labels = dollar_format()) +
+  labs(
+    title = "Relationship Between Mileage and Price",
+    x = "Mileage",
+    y = "Price",
+    caption = "Source: Sample used car listing dataset"
+  ) +
+  theme_minimal()
+```
+
+---
+
+## Vehicle Age Compared to Price
+
+```{r}
+used_cars |>
+  ggplot(aes(x = vehicle_age, y = price)) +
+  geom_point(size = 3) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_y_continuous(labels = dollar_format()) +
+  labs(
+    title = "Relationship Between Vehicle Age and Price",
+    x = "Vehicle Age",
+    y = "Price",
+    caption = "Source: Sample used car listing dataset"
+  ) +
+  theme_minimal()
+```
+
+---
+
+## Brand Reputation and Average Price
+
+```{r}
+used_cars |>
+  group_by(brand_reputation) |>
+  summarise(avg_price = mean(price), .groups = "drop") |>
+  ggplot(aes(x = factor(brand_reputation), y = avg_price)) +
+  geom_col() +
+  scale_y_continuous(labels = dollar_format()) +
+  labs(
+    title = "Average Price by Brand Reputation Score",
+    x = "Brand Reputation Score",
+    y = "Average Price",
+    caption = "Source: Sample used car listing dataset"
+  ) +
+  theme_minimal()
+```
+
+---
+
+## Price Distribution
+
+```{r}
+used_cars |>
+  ggplot(aes(x = price)) +
+  geom_histogram(bins = 6) +
+  scale_x_continuous(labels = dollar_format()) +
+  labs(
+    title = "Distribution of Used Car Prices",
+    x = "Price",
+    y = "Number of Vehicles",
+    caption = "Source: Sample used car listing dataset"
+  ) +
+  theme_minimal()
+```
+
+---
+
+## Business Interpretation
+
+Overall, this dashboard suggests that used car pricing is influenced by make and mileage. For buyers, this information can help with determining whether a car is priced fairly.
+
+---
+
+## Skills Demonstrated
+
+- Data visualization
+- Market research
+- Business analytics
+- Data interpretation
+- Consumer behavior analysis
+- Quarto website development

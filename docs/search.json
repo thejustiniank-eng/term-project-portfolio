@@ -1,0 +1,282 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This page focuses on two academic projects I have completed during my time at Cal Poly Pomona, as well as connects those projects to my real operations experience."
+  },
+  {
+    "objectID": "projects.html#project-overview",
+    "href": "projects.html#project-overview",
+    "title": "Projects",
+    "section": "",
+    "text": "This page focuses on two academic projects I have completed during my time at Cal Poly Pomona, as well as connects those projects to my real operations experience."
+  },
+  {
+    "objectID": "projects.html#project-1-used-car-pricing-research",
+    "href": "projects.html#project-1-used-car-pricing-research",
+    "title": "Projects",
+    "section": "Project 1: Used Car Pricing Research",
+    "text": "Project 1: Used Car Pricing Research\n\nProject Context\nThis project, completed for my Marketing Research course, was aimed at understanding what factors influence the prices of used vehicles. Particularly, analyzing what impact mileage, vehicle age, make, and model have on used car listing prices.\n\n\nResearch Question\nResearch Question:\nHow do mileage, age, make, model, and brand reputation influence used car pricing?\n\n\nData and Method\n\nData source: CarMax, Carvana\nSample size: 60 vehicle listings\nMain variables: Mileage, vehicle age, make, model\nAnalysis method: Regression\nPurpose of analysis: Determining what factors influence the price of used vehicles, in order to help used car buyers evaluate whether they are being fairly charged.\n\n\n\nSkills Demonstrated\n\nMarket research\nData collection\nRegression analysis\nBusiness interpretation\nWritten communication\n\n\n\nWhat I Learned\nThis project taught me that pricing decisions are influenced by vehicle mileage as well as make. Mileage being directly measurable, while make carried a more perceptual variable weight. Brand reputation has a signficant influence on the percieved value of a vehicle."
+  },
+  {
+    "objectID": "projects.html#project-2-interview-an-executive",
+    "href": "projects.html#project-2-interview-an-executive",
+    "title": "Projects",
+    "section": "Project 2: Interview An Executive",
+    "text": "Project 2: Interview An Executive\n\nProject Context\nFor this project, I interviewed a local executive/founder. The interview was centered around value chain analysis. The aim of this project was to learn how an organization level leader evaluates performance across departments and effectively manages the value chain of their company.\n\n\nConcepts Applied\n\nValue chain analysis\nCompetitive advantage\nBusiness-level strategy\nOperations strategy\nLeadership decision-making\nCustomer value\nOrganizational structure\nPerformance management\n\n\n\nSkills Demonstrated\n\nInterview preparation\nProfessional communication\nConnecting theory to practice\nLeadership analysis\nOperations thinking\n\n\n\nWhat I Learned\nFrom the interview, I learned that strategy is not just abstract planning. Real business strategy shows up in operations, people, customer service, and execution. This project helped you think more seriously about leadership and management."
+  },
+  {
+    "objectID": "projects.html#professional-application-mcdonalds-operations-leadership",
+    "href": "projects.html#professional-application-mcdonalds-operations-leadership",
+    "title": "Projects",
+    "section": "Professional Application: McDonald’s Operations Leadership",
+    "text": "Professional Application: McDonald’s Operations Leadership\n\nConnection to My Career Goals\nMy academic projects and work experience connect because both involve data analysis and leadership planning. In the future, I want to use the data analysis skills I’ve built and leadership practices I’ve learned to help organizations improve across their value chain and operational understanding."
+  },
+  {
+    "objectID": "index.html#professional-profile",
+    "href": "index.html#professional-profile",
+    "title": "Isaiah Kirkpatrick",
+    "section": "Professional Profile",
+    "text": "Professional Profile\nI am a senior Business Administration student at Cal Poly Pomona, with a marketing emphasis. Professionally, I have been a Department Manager at McDonald’s for the past year. My role is essentially leading a department at the McDonald’s location I’m assigned to that is responsible for a specific set of controlable costs and operations. Through these paralell experiences, I have had the opportunity to understand business from both an operational and academic perspective. My goal is to pursue operations management."
+  },
+  {
+    "objectID": "index.html#career-objective",
+    "href": "index.html#career-objective",
+    "title": "Isaiah Kirkpatrick",
+    "section": "Career Objective",
+    "text": "Career Objective\nMy career aim, following graduation, is to pursue a role in operations management at a unit level of scale. Having worked across multiple departments within a McDonald’s unit, I have had the opportunity to manage multiple aspects of a unit level P&L. Additionally, my academic experience has provided me with valuable structures and knowledge that I can use to lead operations across departments and teams."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Isaiah Kirkpatrick",
+    "section": "Education",
+    "text": "Education\nCalifornia State Polytechnic University, Pomona\nBachelor of Business Administration\nEmphasis: Marketing\nExpected Completion: July, 2026"
+  },
+  {
+    "objectID": "index.html#professional-experience",
+    "href": "index.html#professional-experience",
+    "title": "Isaiah Kirkpatrick",
+    "section": "Professional Experience",
+    "text": "Professional Experience\nMcDonald’s — Department Manager\nOntario, California\n\nLed People Department, responsible for hiring, training, scheduling, and labor cost control for a McDonald’s location earning $6 million in yearly revenue. Saved $21,000 in labor cost and reduced turnover by 48% during my year of leadership in the department.\nLed Quality Department, responsible for equipment, food safety, inventory, ordering, and food cost control for this McDonald’s location. During my time in the department I consistently met food cost targets and led the department though 90%+ scores on health department, EcoSure, and corporate visits.\nCurrently leading the service department, responsible for customer satisfaction, compliant resolution, promotional marketing, and service times for a store ranked in the top 5 for service in my organization."
+  },
+  {
+    "objectID": "index.html#core-skills",
+    "href": "index.html#core-skills",
+    "title": "Isaiah Kirkpatrick",
+    "section": "Core Skills",
+    "text": "Core Skills\n\nMarketing Analytics\nMarket Research\nGoogle Analytics 4\nData Visualization\nBusiness Strategy\nOperations Management\nCustomer Experience\nTeam Leadership\nCommunication\nProblem Solving\nLabor Cost Control\nInventory & Food Cost Control"
+  },
+  {
+    "objectID": "dashboard.html",
+    "href": "dashboard.html",
+    "title": "Dashboard",
+    "section": "",
+    "text": "This dashboard visualizes selected used car pricing info by comparing price, mileage, age, and brand. The dashboard supports the research question of which factors appear connected to used vehicle value."
+  },
+  {
+    "objectID": "dashboard.html#dashboard-overview",
+    "href": "dashboard.html#dashboard-overview",
+    "title": "Dashboard",
+    "section": "",
+    "text": "This dashboard visualizes selected used car pricing info by comparing price, mileage, age, and brand. The dashboard supports the research question of which factors appear connected to used vehicle value."
+  },
+  {
+    "objectID": "dashboard.html#key-metrics-summary",
+    "href": "dashboard.html#key-metrics-summary",
+    "title": "Dashboard",
+    "section": "Key Metrics Summary",
+    "text": "Key Metrics Summary\n\n\n\n\n\n\n\n\n\n\n\n\nAverage Price\nAverage Mileage\nAverage Vehicle Age\nHighest Price\nLowest Price\n\n\n\n\n$22,161.67\n52,800\n5.4\n$29,995\n$15,495"
+  },
+  {
+    "objectID": "dashboard.html#average-price-by-brand",
+    "href": "dashboard.html#average-price-by-brand",
+    "title": "Dashboard",
+    "section": "Average Price by Brand",
+    "text": "Average Price by Brand"
+  },
+  {
+    "objectID": "dashboard.html#mileage-compared-to-price",
+    "href": "dashboard.html#mileage-compared-to-price",
+    "title": "Dashboard",
+    "section": "Mileage Compared to Price",
+    "text": "Mileage Compared to Price"
+  },
+  {
+    "objectID": "dashboard.html#vehicle-age-compared-to-price",
+    "href": "dashboard.html#vehicle-age-compared-to-price",
+    "title": "Dashboard",
+    "section": "Vehicle Age Compared to Price",
+    "text": "Vehicle Age Compared to Price"
+  },
+  {
+    "objectID": "dashboard.html#brand-reputation-and-average-price",
+    "href": "dashboard.html#brand-reputation-and-average-price",
+    "title": "Dashboard",
+    "section": "Brand Reputation and Average Price",
+    "text": "Brand Reputation and Average Price"
+  },
+  {
+    "objectID": "dashboard.html#price-distribution",
+    "href": "dashboard.html#price-distribution",
+    "title": "Dashboard",
+    "section": "Price Distribution",
+    "text": "Price Distribution"
+  },
+  {
+    "objectID": "dashboard.html#business-interpretation",
+    "href": "dashboard.html#business-interpretation",
+    "title": "Dashboard",
+    "section": "Business Interpretation",
+    "text": "Business Interpretation\nOverall, this dashboard suggests that used car pricing is influenced by make and mileage. For buyers, this information can help with determining whether a car is priced fairly."
+  },
+  {
+    "objectID": "dashboard.html#skills-demonstrated",
+    "href": "dashboard.html#skills-demonstrated",
+    "title": "Dashboard",
+    "section": "Skills Demonstrated",
+    "text": "Skills Demonstrated\n\nData visualization\nMarket research\nBusiness analytics\nData interpretation\nConsumer behavior analysis\nQuarto website development"
+  },
+  {
+    "objectID": "google-analytics.html",
+    "href": "google-analytics.html",
+    "title": "Google Analytics",
+    "section": "",
+    "text": "Google Analytics 4 was used to review website engagement, event activity, page performance, traffic behavior, and revenue-related performance. The screenshots below show the GA4 Engagement Overview and Events reports for the last 28 days."
+  },
+  {
+    "objectID": "google-analytics.html#ga4-overview",
+    "href": "google-analytics.html#ga4-overview",
+    "title": "Google Analytics",
+    "section": "",
+    "text": "Google Analytics 4 was used to review website engagement, event activity, page performance, traffic behavior, and revenue-related performance. The screenshots below show the GA4 Engagement Overview and Events reports for the last 28 days."
+  },
+  {
+    "objectID": "google-analytics.html#ga4-report-screenshots",
+    "href": "google-analytics.html#ga4-report-screenshots",
+    "title": "Google Analytics",
+    "section": "GA4 Report Screenshots",
+    "text": "GA4 Report Screenshots"
+  },
+  {
+    "objectID": "google-analytics.html#key-metrics-summary",
+    "href": "google-analytics.html#key-metrics-summary",
+    "title": "Google Analytics",
+    "section": "Key Metrics Summary",
+    "text": "Key Metrics Summary\n\n\n\n\n\nmetric\nvalue\n\n\n\n\nDate range\nJun 10 – Jul 7, 2026\n\n\nTotal users\n88,573\n\n\nTotal event count\n1,302,922\n\n\nEvent count per active user\n15.41\n\n\nTotal revenue\n$178,423.24\n\n\nViews\n336K\n\n\nAverage engagement time per active user\n54 seconds\n\n\nEngaged sessions per active user\n0.51\n\n\nAverage engagement time\n43 seconds\n\n\nActive users in last 30 minutes\n76"
+  },
+  {
+    "objectID": "google-analytics.html#top-events-by-event-count",
+    "href": "google-analytics.html#top-events-by-event-count",
+    "title": "Google Analytics",
+    "section": "Top Events by Event Count",
+    "text": "Top Events by Event Count"
+  },
+  {
+    "objectID": "google-analytics.html#event-count-per-active-user",
+    "href": "google-analytics.html#event-count-per-active-user",
+    "title": "Google Analytics",
+    "section": "Event Count per Active User",
+    "text": "Event Count per Active User"
+  },
+  {
+    "objectID": "google-analytics.html#top-pages-by-views",
+    "href": "google-analytics.html#top-pages-by-views",
+    "title": "Google Analytics",
+    "section": "Top Pages by Views",
+    "text": "Top Pages by Views"
+  },
+  {
+    "objectID": "google-analytics.html#active-users-in-last-30-minutes",
+    "href": "google-analytics.html#active-users-in-last-30-minutes",
+    "title": "Google Analytics",
+    "section": "Active Users in Last 30 Minutes",
+    "text": "Active Users in Last 30 Minutes"
+  },
+  {
+    "objectID": "google-analytics.html#business-insight",
+    "href": "google-analytics.html#business-insight",
+    "title": "Google Analytics",
+    "section": "Business Insight",
+    "text": "Business Insight\nWrite 5–7 sentences.\nKey points to hit:\n\nThe site had 88,573 total users and 1,302,922 total events during the last 28 days.\nThe strongest event categories were page_view and view_item_list.\nThe Home page had the highest visible page views.\nEngagement was moderate, with 54 seconds average engagement time per active user and 0.51 engaged sessions per active user.\nExplain what this tells a marketer about user behavior.\nExplain what action a business could take based on the data.\n\nStarter:\nThe GA4 data shows that __________. The strongest user activity appears in __________, which suggests that __________. The Home page performance matters because __________. A business could use this information to __________."
+  },
+  {
+    "objectID": "google-analytics.html#skills-demonstrated",
+    "href": "google-analytics.html#skills-demonstrated",
+    "title": "Google Analytics",
+    "section": "Skills Demonstrated",
+    "text": "Skills Demonstrated\n\nGoogle Analytics 4\nWebsite performance analysis\nEvent analysis\nPage performance analysis\nEngagement analysis\nData visualization\nMarketing analytics\nBusiness insight development\nQuarto website development"
+  },
+  {
+    "objectID": "presentation.html#research-purpose",
+    "href": "presentation.html#research-purpose",
+    "title": "Used Car Pricing Research",
+    "section": "Research Purpose",
+    "text": "Research Purpose\n\nAnalyze factors connected to used car resale prices\nFocus on mileage, age, brand, model, and reputation\nUse data visualization to communicate pricing patterns"
+  },
+  {
+    "objectID": "presentation.html#research-question",
+    "href": "presentation.html#research-question",
+    "title": "Used Car Pricing Research",
+    "section": "Research Question",
+    "text": "Research Question\nHow do mileage, vehicle age, brand, model, and brand reputation influence used car pricing?"
+  },
+  {
+    "objectID": "presentation.html#data-and-method",
+    "href": "presentation.html#data-and-method",
+    "title": "Used Car Pricing Research",
+    "section": "Data and Method",
+    "text": "Data and Method\n\nData type: sample used car listing data\nMain variables: price, mileage, year, brand, model, reputation score\nAnalysis method: visual comparison and trend analysis\nPurpose: identify visible pricing patterns"
+  },
+  {
+    "objectID": "presentation.html#key-metrics",
+    "href": "presentation.html#key-metrics",
+    "title": "Used Car Pricing Research",
+    "section": "Key Metrics",
+    "text": "Key Metrics\n\n\n\n\n\n\n\n\n\n\n\n\nAverage Price\nAverage Mileage\nAverage Age\nHighest Price\nLowest Price\n\n\n\n\n$22,161.67\n52,800\n5.4\n$29,995\n$15,495"
+  },
+  {
+    "objectID": "presentation.html#average-price-by-brand",
+    "href": "presentation.html#average-price-by-brand",
+    "title": "Used Car Pricing Research",
+    "section": "Average Price by Brand",
+    "text": "Average Price by Brand"
+  },
+  {
+    "objectID": "presentation.html#mileage-and-price",
+    "href": "presentation.html#mileage-and-price",
+    "title": "Used Car Pricing Research",
+    "section": "Mileage and Price",
+    "text": "Mileage and Price"
+  },
+  {
+    "objectID": "presentation.html#vehicle-age-and-price",
+    "href": "presentation.html#vehicle-age-and-price",
+    "title": "Used Car Pricing Research",
+    "section": "Vehicle Age and Price",
+    "text": "Vehicle Age and Price"
+  },
+  {
+    "objectID": "presentation.html#business-takeaway",
+    "href": "presentation.html#business-takeaway",
+    "title": "Used Car Pricing Research",
+    "section": "Business Takeaway",
+    "text": "Business Takeaway\nFill in 3–5 bullets:\n\nThe strongest pricing pattern appears to be __________.\nBuyers could use this information to __________.\nSellers or dealerships could use this information to __________.\nThis connects to marketing analytics because __________."
+  },
+  {
+    "objectID": "presentation.html#skills-demonstrated",
+    "href": "presentation.html#skills-demonstrated",
+    "title": "Used Car Pricing Research",
+    "section": "Skills Demonstrated",
+    "text": "Skills Demonstrated\n\nMarketing research\nData visualization\nBusiness analytics\nConsumer behavior analysis\nQuarto Reveal.js presentation development\nData-based communication"
+  },
+  {
+    "objectID": "presentation.html#final-reflection",
+    "href": "presentation.html#final-reflection",
+    "title": "Used Car Pricing Research",
+    "section": "Final Reflection",
+    "text": "Final Reflection\nFill in 3–5 sentences:\nThis project helped me understand __________. The most useful part of the analysis was __________ because __________. In a business setting, this type of analysis could help __________."
+  }
+]

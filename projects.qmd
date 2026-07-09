@@ -1,0 +1,75 @@
+---
+title: "Projects"
+subtitle: "Selected work in marketing analytics, business research, and operations"
+---
+
+## Project Overview
+
+This page focuses on two academic projects I have completed during my time at Cal Poly Pomona, as well as connects those projects to my real operations experience.
+
+## Project 1: Used Car Pricing Research
+
+### Project Context
+
+This project, completed for my Marketing Research course, was aimed at understanding what factors influence the prices of used vehicles.  Particularly, analyzing what impact mileage, vehicle age, make, and model have on used car listing prices.
+
+### Research Question
+
+**Research Question:** 
+
+How do mileage, age, make, model, and brand reputation influence used car pricing?
+
+### Data and Method
+
+- Data source: CarMax, Carvana
+- Sample size: 60 vehicle listings
+- Main variables: Mileage, vehicle age, make, model
+- Analysis method: Regression
+- Purpose of analysis: Determining what factors influence the price of used vehicles, in order to help used car buyers evaluate whether they are being fairly charged.
+
+### Skills Demonstrated
+
+- Market research
+- Data collection
+- Regression analysis
+- Business interpretation
+- Written communication
+
+### What I Learned
+
+This project taught me that pricing decisions are influenced by vehicle mileage as well as make. Mileage being directly measurable, while make carried a more perceptual variable weight.  Brand reputation has a signficant influence on the percieved value of a vehicle.
+
+## Project 2: Interview An Executive
+
+### Project Context
+
+For this project, I interviewed a local executive/founder.  The interview was centered around value chain analysis.  The aim of this project was to learn how an organization level leader evaluates performance across departments and effectively manages the value chain of their company. 
+
+### Concepts Applied
+
+- Value chain analysis
+- Competitive advantage
+- Business-level strategy
+- Operations strategy
+- Leadership decision-making
+- Customer value
+- Organizational structure
+- Performance management
+
+### Skills Demonstrated
+
+- Interview preparation
+- Professional communication
+- Connecting theory to practice
+- Leadership analysis
+- Operations thinking
+
+### What I Learned
+
+From the interview, I learned that strategy is not just abstract planning.  Real business strategy shows up in operations, people, customer service, and execution.  This project helped you think more seriously about leadership and management.
+
+## Professional Application: McDonald's Operations Leadership
+
+### Connection to My Career Goals
+
+My academic projects and work experience connect because both involve data analysis and leadership planning. In the future, I want to use the data analysis skills I've built and leadership practices I've learned to help organizations improve across their value chain and operational understanding.

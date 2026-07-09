@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Isaiah Kirkpatrick"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: dashboard.qmd
+        text: Dashboard
+      - href: presentation.qmd
+        text: Presentation
+      - href: google-analytics.qmd
+        text: Google Analytics
+    right:
+      - text: GitHub
+        icon: github
+        href: https://github.com/thejustiniank-eng
+      - text: LinkedIn
+        icon: linkedin
+        href: https://www.linkedin.com/in/isaiah-kirkpatrick-0a180524b/
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true

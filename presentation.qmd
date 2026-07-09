@@ -1,0 +1,133 @@
+---
+title: "Used Car Pricing Research"
+subtitle: "Marketing Research Presentation"
+author: "Isaiah Kirkpatrick"
+format:
+  revealjs:
+    theme: simple
+    transition: fade
+    slide-number: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+library(tidyverse)
+library(scales)
+
+used_cars <- tibble::tribble(
+  ~brand, ~model, ~year, ~price, ~mileage, ~brand_reputation,
+  "Toyota", "Camry", 2021, 22995, 42000, 5,
+  "Toyota", "Corolla", 2020, 18995, 55000, 5,
+  "Toyota", "RAV4", 2022, 28995, 36000, 5,
+  "Honda", "Civic", 2021, 21995, 39000, 5,
+  "Honda", "Accord", 2020, 23995, 47000, 5,
+  "Honda", "CR-V", 2022, 29995, 34000, 5,
+  "Ford", "Fusion", 2019, 15995, 71000, 3,
+  "Ford", "Escape", 2021, 21495, 52000, 3,
+  "Ford", "Explorer", 2020, 26995, 61000, 3,
+  "Chevrolet", "Malibu", 2019, 15495, 76000, 3,
+  "Chevrolet", "Equinox", 2021, 20495, 58000, 3,
+  "Chevrolet", "Traverse", 2020, 25995, 63000, 3,
+  "Nissan", "Altima", 2020, 17995, 69000, 4,
+  "Nissan", "Sentra", 2021, 16995, 48000, 4,
+  "Nissan", "Rogue", 2022, 23995, 41000, 4
+) |>
+  mutate(vehicle_age = 2026 - year)
+```
+
+## Research Purpose
+
+- Analyze factors connected to used car resale prices
+- Focus on mileage, age, brand, model, and reputation
+- Use data visualization to communicate pricing patterns
+
+## Research Question
+
+**How do mileage, vehicle age, brand, model, and brand reputation influence used car pricing?**
+
+## Data and Method
+
+- Data type: sample used car listing data
+- Main variables: price, mileage, year, brand, model, reputation score
+- Analysis method: visual comparison and trend analysis
+- Purpose: identify visible pricing patterns
+
+## Key Metrics
+
+```{r}
+used_cars |>
+  summarise(
+    `Average Price` = dollar(mean(price)),
+    `Average Mileage` = comma(round(mean(mileage), 0)),
+    `Average Age` = round(mean(vehicle_age), 1),
+    `Highest Price` = dollar(max(price)),
+    `Lowest Price` = dollar(min(price))
+  ) |>
+  knitr::kable()
+```
+
+## Average Price by Brand
+
+```{r}
+used_cars |>
+  group_by(brand) |>
+  summarise(avg_price = mean(price), .groups = "drop") |>
+  ggplot(aes(x = reorder(brand, avg_price), y = avg_price)) +
+  geom_col() +
+  coord_flip() +
+  scale_y_continuous(labels = dollar_format()) +
+  labs(x = "Brand", y = "Average Price") +
+  theme_minimal()
+```
+
+## Mileage and Price
+
+```{r}
+used_cars |>
+  ggplot(aes(x = mileage, y = price)) +
+  geom_point(size = 3) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_x_continuous(labels = comma_format()) +
+  scale_y_continuous(labels = dollar_format()) +
+  labs(x = "Mileage", y = "Price") +
+  theme_minimal()
+```
+
+## Vehicle Age and Price
+
+```{r}
+used_cars |>
+  ggplot(aes(x = vehicle_age, y = price)) +
+  geom_point(size = 3) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_y_continuous(labels = dollar_format()) +
+  labs(x = "Vehicle Age", y = "Price") +
+  theme_minimal()
+```
+
+## Business Takeaway
+
+Fill in 3–5 bullets:
+
+- The strongest pricing pattern appears to be __________.
+- Buyers could use this information to __________.
+- Sellers or dealerships could use this information to __________.
+- This connects to marketing analytics because __________.
+
+## Skills Demonstrated
+
+- Marketing research
+- Data visualization
+- Business analytics
+- Consumer behavior analysis
+- Quarto Reveal.js presentation development
+- Data-based communication
+
+## Final Reflection
+
+Fill in 3–5 sentences:
+
+This project helped me understand __________. The most useful part of the analysis was __________ because __________. In a business setting, this type of analysis could help __________.
