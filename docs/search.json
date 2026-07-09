@@ -200,14 +200,14 @@
     "href": "google-analytics.html#business-insight",
     "title": "Google Analytics",
     "section": "Business Insight",
-    "text": "Business Insight\nWrite 5–7 sentences.\nKey points to hit:\n\nThe site had 88,573 total users and 1,302,922 total events during the last 28 days.\nThe strongest event categories were page_view and view_item_list.\nThe Home page had the highest visible page views.\nEngagement was moderate, with 54 seconds average engagement time per active user and 0.51 engaged sessions per active user.\nExplain what this tells a marketer about user behavior.\nExplain what action a business could take based on the data.\n\nStarter:\nThe GA4 data shows that __________. The strongest user activity appears in __________, which suggests that __________. The Home page performance matters because __________. A business could use this information to __________."
+    "text": "Business Insight\n\nThe site had 88,573 total users and 1,302,922 total events during the last 28 days.\nThe strongest event categories were page_view and view_item_list.\nThe Home page had the highest visible page views.\nEngagement was moderate, with 54 seconds average engagement time per active user and 0.51 engaged sessions per active user."
   },
   {
     "objectID": "google-analytics.html#skills-demonstrated",
     "href": "google-analytics.html#skills-demonstrated",
     "title": "Google Analytics",
     "section": "Skills Demonstrated",
-    "text": "Skills Demonstrated\n\nGoogle Analytics 4\nWebsite performance analysis\nEvent analysis\nPage performance analysis\nEngagement analysis\nData visualization\nMarketing analytics\nBusiness insight development\nQuarto website development"
+    "text": "Skills Demonstrated\n\nGoogle Analytics 4\nWebsite performance analysis\nData visualization\nMarketing analytics\nBusiness insight\nQuarto website development"
   },
   {
     "objectID": "presentation.html#research-purpose",

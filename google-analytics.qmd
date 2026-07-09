@@ -162,20 +162,10 @@ realtime_pages |>
 
 ## Business Insight
 
-Write 5–7 sentences.
-
-Key points to hit:
-
 - The site had **88,573 total users** and **1,302,922 total events** during the last 28 days.
 - The strongest event categories were **page_view** and **view_item_list**.
 - The **Home** page had the highest visible page views.
 - Engagement was moderate, with **54 seconds average engagement time per active user** and **0.51 engaged sessions per active user**.
-- Explain what this tells a marketer about user behavior.
-- Explain what action a business could take based on the data.
-
-Starter:
-
-The GA4 data shows that __________. The strongest user activity appears in __________, which suggests that __________. The Home page performance matters because __________. A business could use this information to __________.
 
 ---
 
@@ -183,10 +173,7 @@ The GA4 data shows that __________. The strongest user activity appears in _____
 
 - Google Analytics 4
 - Website performance analysis
-- Event analysis
-- Page performance analysis
-- Engagement analysis
 - Data visualization
 - Marketing analytics
-- Business insight development
+- Business insight
 - Quarto website development
