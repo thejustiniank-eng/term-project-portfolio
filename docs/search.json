@@ -263,7 +263,7 @@
     "href": "presentation.html#business-takeaway",
     "title": "Used Car Pricing Research",
     "section": "Business Takeaway",
-    "text": "Business Takeaway\nFill in 3–5 bullets:\n\nThe strongest pricing pattern appears to be __________.\nBuyers could use this information to __________.\nSellers or dealerships could use this information to __________.\nThis connects to marketing analytics because __________."
+    "text": "Business Takeaway\nThe strongest differentiator in price in the study was vehicle mileage. Buyers can use this information when determining whether they are being charged fairly. Sellers can use this information to consistently price vehicles."
   },
   {
     "objectID": "presentation.html#skills-demonstrated",
@@ -271,12 +271,5 @@
     "title": "Used Car Pricing Research",
     "section": "Skills Demonstrated",
     "text": "Skills Demonstrated\n\nMarketing research\nData visualization\nBusiness analytics\nConsumer behavior analysis\nQuarto Reveal.js presentation development\nData-based communication"
-  },
-  {
-    "objectID": "presentation.html#final-reflection",
-    "href": "presentation.html#final-reflection",
-    "title": "Used Car Pricing Research",
-    "section": "Final Reflection",
-    "text": "Final Reflection\nFill in 3–5 sentences:\nThis project helped me understand __________. The most useful part of the analysis was __________ because __________. In a business setting, this type of analysis could help __________."
   }
 ]

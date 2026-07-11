@@ -160,6 +160,7 @@ realtime_pages |>
 
 ---
 
+
 ## Business Insight
 
 - The site had **88,573 total users** and **1,302,922 total events** during the last 28 days.

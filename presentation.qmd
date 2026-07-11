@@ -110,12 +110,7 @@ used_cars |>
 
 ## Business Takeaway
 
-Fill in 3–5 bullets:
-
-- The strongest pricing pattern appears to be __________.
-- Buyers could use this information to __________.
-- Sellers or dealerships could use this information to __________.
-- This connects to marketing analytics because __________.
+The strongest differentiator in price in the study was vehicle mileage.  Buyers can use this information when determining whether they are being charged fairly.   Sellers can use this information to consistently price vehicles.
 
 ## Skills Demonstrated
 
@@ -125,9 +120,3 @@ Fill in 3–5 bullets:
 - Consumer behavior analysis
 - Quarto Reveal.js presentation development
 - Data-based communication
-
-## Final Reflection
-
-Fill in 3–5 sentences:
-
-This project helped me understand __________. The most useful part of the analysis was __________ because __________. In a business setting, this type of analysis could help __________.
